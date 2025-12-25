@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+      "fsdeploy.nodes": [
+          {
+              "source":"/Users/christophelance/Sites/assets/joomla5/plugins/schemaorg/videoobject",
+              "target":"/Users/christophelance/Sites/wcrp4/plugins/schemaorg/videoobject",
+              "include":"**/*.*",
+              "exclude":"**/min/*.*",
+              "deleteTargetOnDeploy": true
+          }
+      ],
+      "fsdeploy.deployOnSave": true,
+      "fsdeploy.deployWorkspaceOnSave": false
+
+	}
+}
